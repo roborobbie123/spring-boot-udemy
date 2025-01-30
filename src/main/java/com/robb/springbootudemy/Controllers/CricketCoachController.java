@@ -14,10 +14,9 @@ public class CricketCoachController {
 
     // define constructor injection --> required dependencies
     @Autowired
-    public CricketCoachController(@Qualifier("cricketCoach") Coach coach) {
+    public CricketCoachController(@Qualifier("swimCoach") Coach coach) {
         this.coach = coach;
         System.out.println("In constructor: " + getClass().getName());
-
     }
 
     // define setter injection --> optional dependencies
@@ -32,4 +31,6 @@ public class CricketCoachController {
     public String getDailyWorkout() {
         return coach.getDailyWorkout();
     }
+
+
 }
