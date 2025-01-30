@@ -1,4 +1,4 @@
-package com.robb.springbootudemy.Interface;
+package com.robb.springbootudemy.Common;
 
 public interface Coach {
 
