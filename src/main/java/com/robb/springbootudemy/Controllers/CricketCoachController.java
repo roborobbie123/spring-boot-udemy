@@ -16,6 +16,8 @@ public class CricketCoachController {
     @Autowired
     public CricketCoachController(@Qualifier("cricketCoach") Coach coach) {
         this.coach = coach;
+        System.out.println("In constructor: " + getClass().getName());
+
     }
 
     // define setter injection --> optional dependencies
