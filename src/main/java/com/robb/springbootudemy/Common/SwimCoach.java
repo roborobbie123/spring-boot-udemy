@@ -1,5 +1,5 @@
 package com.robb.springbootudemy.Common;
-
+/*
 public class SwimCoach implements Coach {
 
     public SwimCoach() {
@@ -11,3 +11,4 @@ public class SwimCoach implements Coach {
         return "Swim 1000 miles as a warmup";
     }
 }
+*/

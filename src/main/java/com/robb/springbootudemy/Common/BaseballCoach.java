@@ -3,6 +3,7 @@ package com.robb.springbootudemy.Common;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
+/*
 @Component
 public class BaseballCoach implements Coach {
 
@@ -15,3 +16,4 @@ public class BaseballCoach implements Coach {
         return "Spend 30 minutes in batting practice";
     }
 }
+*/

@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/*
 @RestController
 public class CricketCoachController {
 
@@ -27,6 +28,7 @@ public class CricketCoachController {
     }
      */
 
+/*
     @GetMapping("/dailyworkout")
     public String getDailyWorkout() {
         return coach.getDailyWorkout();
@@ -34,3 +36,4 @@ public class CricketCoachController {
 
 
 }
+*/

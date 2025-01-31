@@ -2,7 +2,7 @@ package com.robb.springbootudemy.Common;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
-
+/*
 @Component
 public class TrackCoach implements Coach {
 
@@ -15,3 +15,4 @@ public class TrackCoach implements Coach {
         return "8 800m repeats";
     }
 }
+*/
